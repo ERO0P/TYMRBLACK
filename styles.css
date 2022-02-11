@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+ 
+}
+body {
+background-color: #3D3D3D;
+height: 100%;
+}
+
+.text {
+  font-family: 'Ubuntu', sans-serif;
+  color: green;
+  font-size: min(5vw, 50px);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  filter: drop-shadow(3px 1px 350px rgb(160, 0, 200));
+}
+  
+a{
+  text-decoration: none;
+  color: white;
+  
+}
+a:hover {
+  font-style: ;
+  transition: 1.5s linear;
+  color: #FFD700;
+  transform: scale(2);
+}
